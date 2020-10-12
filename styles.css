@@ -3,15 +3,16 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(214, 214, 235)
+  background-color: rgb(214, 214, 235);
 }
-h1{
-    color: rgb(7, 7, 63);
-    font-size: 48 px
-    text-align: left;
-}
+
 p{
-    color: black;
+
     font-size: 25px;
+}
+headcolor-text{
+    color: rgb(45, 45, 206)
+    font-size: 48 px
+    text-align: left:
 }
 </style>

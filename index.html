@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Ysmerys - A little Bit About Me </title>
+        <style>
+        .myDiv{
+            border: 2px outset blue;
+            padding:30px;
+            margin:30px;
+            background-color:lightsteelblue;
+            text-align: left;
+        } 
+        </style>
+        <title> My Hobbies-A little Bit About Me </title>
         <link rel= "stylesheet" type= "text/css" href="styles.css"
     </head>
     <body>
         <header> 
             <h1>Hoobies and Interests</h1>
-            <nav> id="diviser">
+            <div class= "myDiv">
+
+            <nav>
                 <ul>
                     <li>
                         <a href= "#Travelling">Travelling</a>
@@ -20,40 +31,57 @@
                     </li>
                 </ul>
             </nav>
+        </div>
     
         </header>
         <main>
             <article>
                 <section>
                     <a name= " A Little Bit About Me"></a>
-                    <cite>"A Little Bit About Me by Ysmerys Palmera"</cite>
+                    <cite>"A Little Bit About Me by" by Ysmerys Palmera.</cite>
                     <p>I grew up in a little town of Venezuela named Turén. It is a beautiful little town dedicated to agriculture with majesties sunset, warm climate during the whole year and friendly people. My essence is in my culture, values and education besides many hobbies that let me experience the beauty of the life such as travelling, bakery, and painting among others. </p>
-                    <img src= "https://i.pinimg.com/originals/d1/cd/d1/d1cdd1939394ec9ccf64f47f45ad575f.jpg" alt= "Landscape in the South of Venezuela image courtesy of freshpeaks.com">
-                    <figcaption>Landscape in the South of Venezuela image courtesy of freshpeaks.com</figcaption>
+                    <img src= "https://www.viajandoconmali.com/wp-content/uploads/2018/10/turen.jpg
+                    " alt= "The splendor of the sunflowers of Turén, Venezuela image courtesy of viajandoconmali.com" class= "center">
+                    <figcaption class= "center">The splendor of the sunflowers of Turén, &quot;Venezuela&quot; image courtesy of viajandoconmali.com</figcaption>
                 </section>
-                <section> 
+                <section > 
+
                     <a name= "Travelling"></a>
-                    <h3> Travelling</h3>
+                    <h3 class= "headlinescolor">Travelling</h3>
                     <p>I like to travel; I am a lover of landscapes. So far, I have visited almost each states of my country; places such as the plains “Los Llanos”, the Andes “Los Andes”, and the coasts are my favorite places to visit in my country. Also; I have had the opportunity to travel abroad of my country to places such as Argentina where I lived for 9 months, Mexico, Colombia, Brazil and currently United States where I have lived by almost 2 years.</p>
+                    <div class="row center">
+                        <div class="column">
+                          <img src="https://www.dropbox.com/s/elnm0w9q86ppdt1/mexico%20piramids.jpg?raw=1" alt="Piramids Mexico" style="width:100%">
+                          <figcaption class= "center">Teotihuacan, Mexico.</figcaption>
+                        </div>
+                        <div class="column">
+                          <img src="https://www.dropbox.com/s/u2uaftpa27ul5gb/argentina.jpg?raw=1" alt= "Argentina Buenos Aires" style="width:100%">
+                          <figcaption class= "center">Buenos Aires, Argentina.</figcaption>
+                        </div>
+                        <div class="column">
+                          <img src="https://www.dropbox.com/s/bdfuq7h4cet4l69/stl.jpeg?raw=1" alt="Saint Louis" style="width:100%">
+                          <figcaption class= "center">Saint Louis, USA.</figcaption>
+                        </div>
+                      </div>
                 </section>
                 <section>
                     <a name = "Bakery"></a>
-                    <h4> Bakery</h4>
+                    <h4 class= "headlinescolor"> Bakery</h4>
                     <p> Bakery is one of my passions. I enjoy working in the kitchen. this is like a little lab for me; I enjoy mixings ingredients and smelling the exquisite flavors of chocolate, vanilla, and fruits. I have made some creations for close friends. The degustation is the best part when I can see how my relatives and friends enjoy my desserts and food.</p>
-                    <img src= "https://www.dropbox.com/s/qs2e5wi84yc64t7/IMG_7876.JPG?raw=1" alt= "My cake for grandma Betsy" width="528" height= "360">
-                    <figcaption>My cake for grandma Betsy</figcaption>
+                    <img src= "https://www.dropbox.com/s/9gr4hpznggtrbxg/cake_new.jpg?raw=1" alt= "My cake for grandma Betsy" width:"150" height= "650" class= "center">
+                    <figcaption class= "center">My cake for grandma Betsy</figcaption>
                 </section>
                 <section>
                     <a name = "Painting"></a>
-                    <h5> Painting</h5>
+                    <h5 class= "headlinescolor"> Painting</h5>
                     <p>One of my recent discovery is my passion for painting. All started almost for accident. I enrolled in painting classes because I needed to take more credit units and now painting has become one of my favorite hobbies. The details and trying to catch the essence of the light and darkness are fascinating.</p>
-                    <img src= "https://www.dropbox.com/s/wsc58j89g5em6q2/IMG_6021.JPG?raw=1" alt= "My First Painting" width="528" height= "330">
-                    <figcaption>My First Painting</figcaption>
+                    <img src= "https://www.dropbox.com/s/wsc58j89g5em6q2/IMG_6021.JPG?raw=1" alt= "My First Painting" width="200" height= "550" class= "center">
+                    <figcaption class= "center">My First Painting</figcaption>
                 </section>
             </article>
         </main>
         <footer>
-            <p> &copy;2020 Ysmerys Palmera</p>
+            <p id="signup"> &copy;2020 Ysmerys Palmera</p>
         </footer>
     </body>
 </html>
